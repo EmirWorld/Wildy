@@ -1,19 +1,50 @@
-.user-nav{
-background-color: green;
-  &__icon-box {
+.user-nav {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
 
+  & > * {
+    padding: 0 2rem;
+    cursor: pointer;
+    height: 100%;
   }
 
-  &__icon{
+  & > *:hover{
+    background-color: $color-grey-light-2;
+  }
+
+  &__icon-box {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  &__icon {
     height: 2.25rem;
     width: 2.25rem;
+    fill: $color-grey-dark-2;
+
   }
 
-  &__notification{
-
+  &__notification {
+    font-size: .8rem;
+    font-weight: 600;
+    height: 1.75rem;
+    width: 1.75rem;
+    border-radius: 100px;
+    background-color: $color-primary-light;
+    color: $color-white;
+    position: absolute;
+    top: 1.5rem;
+    right: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   &__user {
+    display: flex;
+    align-items: center;
 
     &-photo {
       height: 4rem;
@@ -21,7 +52,7 @@ background-color: green;
     }
 
     &-name {
-
+      padding-left: 1rem;
     }
   }
 }

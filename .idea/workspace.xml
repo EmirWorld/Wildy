@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7c8e6d9d-4159-471f-94df-03249d92aebe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kYlgnwkZbnzi57V9GLkVTgCGy2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c8e6d9d-4159-471f-94df-03249d92aebe" name="Default Changelist" comment="" />
+      <created>1605885519118</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605885519118</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1379" y="1352" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605891851510">
+      <screen x="686" y="1050" width="1920" height="1080" />
+    </state>
+    <state x="1379" y="1352" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/686.1050.1920.1080/0.0.1680.1050/1680.0.1680.1050@686.1050.1920.1080" timestamp="1605891851510" />
+    <state x="1185" y="1157" width="912" height="899" key="CommitChangelistDialog2" timestamp="1605892750410">
+      <screen x="686" y="1050" width="1920" height="1080" />
+    </state>
+    <state x="1185" y="1157" width="912" height="899" key="CommitChangelistDialog2/686.1050.1920.1080/0.0.1680.1050/1680.0.1680.1050@686.1050.1920.1080" timestamp="1605892750410" />
+    <state x="1417" y="1347" width="447" height="520" key="FileChooserDialogImpl" timestamp="1605892723341">
+      <screen x="686" y="1050" width="1920" height="1080" />
+    </state>
+    <state x="1417" y="1347" width="447" height="520" key="FileChooserDialogImpl/686.1050.1920.1080/0.0.1680.1050/1680.0.1680.1050@686.1050.1920.1080" timestamp="1605892723341" />
+    <state x="1416" y="1323" width="440" height="573" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1605892747551">
+      <screen x="686" y="1050" width="1920" height="1080" />
+    </state>
+    <state x="1416" y="1323" width="440" height="573" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/686.1050.1920.1080/0.0.1680.1050/1680.0.1680.1050@686.1050.1920.1080" timestamp="1605892747551" />
+    <state x="1309" y="1309" width="672" height="678" key="search.everywhere.popup" timestamp="1605892221044">
+      <screen x="686" y="1050" width="1920" height="1080" />
+    </state>
+    <state x="1309" y="1309" width="672" height="678" key="search.everywhere.popup/686.1050.1920.1080/0.0.1680.1050/1680.0.1680.1050@686.1050.1920.1080" timestamp="1605892221044" />
+  </component>
+</project>

@@ -1,5 +1,15 @@
 .header{
   height: 7rem;
+  font-size: 1.4rem;
   background-color: $color-white;
   border-bottom: $color-grey-light-2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+//LOGO
+.logo{
+  height: 3.25rem;
+  margin-left: 3rem;
 }

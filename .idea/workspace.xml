@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c8e6d9d-4159-471f-94df-03249d92aebe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/components/_usernav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/layout/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/layout/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/layout/_sidebar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +30,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -35,31 +41,55 @@
       <option name="presentableId" value="Default" />
       <updated>1605885519118</updated>
     </task>
+    <task id="LOCAL-00001" summary="Started new project using flexbox technology">
+      <created>1605892927838</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605892927838</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Started new project using flexbox technology" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started new project using flexbox technology" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="1365" y="1439" width="551" height="342" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1605894691427">
+      <screen x="686" y="1050" width="1920" height="1080" />
+    </state>
+    <state x="1365" y="1439" width="551" height="342" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/686.1050.1920.1080/0.0.1680.1050/1680.0.1680.1050@686.1050.1920.1080" timestamp="1605894691427" />
     <state x="1379" y="1352" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605891851510">
       <screen x="686" y="1050" width="1920" height="1080" />
     </state>
     <state x="1379" y="1352" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/686.1050.1920.1080/0.0.1680.1050/1680.0.1680.1050@686.1050.1920.1080" timestamp="1605891851510" />
-    <state x="1185" y="1157" width="912" height="899" key="CommitChangelistDialog2" timestamp="1605892750410">
+    <state x="1185" y="1157" width="912" height="899" key="CommitChangelistDialog2" timestamp="1605892927723">
       <screen x="686" y="1050" width="1920" height="1080" />
     </state>
-    <state x="1185" y="1157" width="912" height="899" key="CommitChangelistDialog2/686.1050.1920.1080/0.0.1680.1050/1680.0.1680.1050@686.1050.1920.1080" timestamp="1605892750410" />
+    <state x="1185" y="1157" width="912" height="899" key="CommitChangelistDialog2/686.1050.1920.1080/0.0.1680.1050/1680.0.1680.1050@686.1050.1920.1080" timestamp="1605892927723" />
     <state x="1417" y="1347" width="447" height="520" key="FileChooserDialogImpl" timestamp="1605892723341">
       <screen x="686" y="1050" width="1920" height="1080" />
     </state>
     <state x="1417" y="1347" width="447" height="520" key="FileChooserDialogImpl/686.1050.1920.1080/0.0.1680.1050/1680.0.1680.1050@686.1050.1920.1080" timestamp="1605892723341" />
+    <state x="1135" y="1238" width="1022" height="737" key="SettingsEditor" timestamp="1605894709828">
+      <screen x="686" y="1050" width="1920" height="1080" />
+    </state>
+    <state x="1135" y="1238" width="1022" height="737" key="SettingsEditor/686.1050.1920.1080/0.0.1680.1050/1680.0.1680.1050@686.1050.1920.1080" timestamp="1605894709828" />
+    <state x="1241" y="1339" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605892948552">
+      <screen x="686" y="1050" width="1920" height="1080" />
+    </state>
+    <state x="1241" y="1339" width="800" height="535" key="Vcs.Push.Dialog.v2/686.1050.1920.1080/0.0.1680.1050/1680.0.1680.1050@686.1050.1920.1080" timestamp="1605892948552" />
     <state x="1416" y="1323" width="440" height="573" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1605892747551">
       <screen x="686" y="1050" width="1920" height="1080" />
     </state>
     <state x="1416" y="1323" width="440" height="573" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/686.1050.1920.1080/0.0.1680.1050/1680.0.1680.1050@686.1050.1920.1080" timestamp="1605892747551" />
-    <state x="1309" y="1309" width="672" height="678" key="search.everywhere.popup" timestamp="1605892221044">
+    <state x="1309" y="1309" width="672" height="678" key="search.everywhere.popup" timestamp="1605894682013">
       <screen x="686" y="1050" width="1920" height="1080" />
     </state>
-    <state x="1309" y="1309" width="672" height="678" key="search.everywhere.popup/686.1050.1920.1080/0.0.1680.1050/1680.0.1680.1050@686.1050.1920.1080" timestamp="1605892221044" />
+    <state x="1309" y="1309" width="672" height="678" key="search.everywhere.popup/686.1050.1920.1080/0.0.1680.1050/1680.0.1680.1050@686.1050.1920.1080" timestamp="1605894682013" />
   </component>
 </project>

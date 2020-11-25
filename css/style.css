@@ -180,6 +180,22 @@ body {
     .user-nav__user-name {
       padding-left: 1rem; }
 
+.gallery {
+  display: flex; }
+  .gallery__photo {
+    width: 100%;
+    display: block; }
+
+.btn-inline,
+.btn-inline:link,
+.btn-inline:active {
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  border-bottom: 1px solid #000;
+  padding-bottom: 2px;
+  font-size: 1.2rem; }
+
 .container {
   max-width: 120rem;
   margin: 8rem auto;

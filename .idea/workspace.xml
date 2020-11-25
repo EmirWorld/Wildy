@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c8e6d9d-4159-471f-94df-03249d92aebe" name="Default Changelist" comment="Implemented galery">
-      <change afterPath="$PROJECT_DIR$/sass/components/_button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/components/_gallery.scss" afterDir="false" />
+    <list default="true" id="7c8e6d9d-4159-471f-94df-03249d92aebe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/sass/components/_overview.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/base/_animations.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/base/_animations.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/components/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/layout/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606228309456</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Implemented galery">
+      <created>1606314213171</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606314213171</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,10 +110,10 @@
       <screen x="686" y="1050" width="1920" height="1080" />
     </state>
     <state x="1379" y="1352" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/686.1050.1920.1080/0.0.1680.1050/1680.0.1680.1050@686.1050.1920.1080" timestamp="1605891851510" />
-    <state x="1185" y="1157" width="912" height="917" key="CommitChangelistDialog2" timestamp="1606314204040">
+    <state x="1185" y="1157" width="912" height="917" key="CommitChangelistDialog2" timestamp="1606314213011">
       <screen x="686" y="1050" width="1920" height="1080" />
     </state>
-    <state x="1185" y="1157" width="912" height="899" key="CommitChangelistDialog2/686.1050.1920.1080/0.0.1680.1050/1680.0.1680.1050@686.1050.1920.1080" timestamp="1606314204040" />
+    <state x="1185" y="1157" width="912" height="899" key="CommitChangelistDialog2/686.1050.1920.1080/0.0.1680.1050/1680.0.1680.1050@686.1050.1920.1080" timestamp="1606314213011" />
     <state x="1204" y="1157" width="912" height="917" key="CommitChangelistDialog2/705.1050.1920.1080/0.0.1680.1050@705.1050.1920.1080" timestamp="1606228309390" />
     <state x="1417" y="1347" width="447" height="520" key="FileChooserDialogImpl" timestamp="1605892723341">
       <screen x="686" y="1050" width="1920" height="1080" />
@@ -119,19 +127,19 @@
       <screen x="686" y="1050" width="1920" height="1080" />
     </state>
     <state x="870" y="1276" width="1022" height="737" key="SettingsEditor/686.1050.1920.1080/0.0.1680.1050/1680.0.1680.1050@686.1050.1920.1080" timestamp="1606312723468" />
-    <state x="1260" y="1339" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1606228312162">
-      <screen x="705" y="1050" width="1920" height="1080" />
+    <state x="1241" y="1339" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1606314215202">
+      <screen x="686" y="1050" width="1920" height="1080" />
     </state>
-    <state x="1241" y="1339" width="800" height="535" key="Vcs.Push.Dialog.v2/686.1050.1920.1080/0.0.1680.1050/1680.0.1680.1050@686.1050.1920.1080" timestamp="1605897352611" />
+    <state x="1241" y="1339" width="800" height="535" key="Vcs.Push.Dialog.v2/686.1050.1920.1080/0.0.1680.1050/1680.0.1680.1050@686.1050.1920.1080" timestamp="1606314215202" />
     <state x="1260" y="1339" width="800" height="535" key="Vcs.Push.Dialog.v2/705.1050.1920.1080/0.0.1680.1050@705.1050.1920.1080" timestamp="1606228312162" />
     <state x="1416" y="1323" width="440" height="573" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1605892747551">
       <screen x="686" y="1050" width="1920" height="1080" />
     </state>
     <state x="1416" y="1323" width="440" height="573" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/686.1050.1920.1080/0.0.1680.1050/1680.0.1680.1050@686.1050.1920.1080" timestamp="1605892747551" />
-    <state x="1309" y="1309" width="672" height="678" key="search.everywhere.popup" timestamp="1606313581267">
+    <state x="1309" y="1309" width="672" height="678" key="search.everywhere.popup" timestamp="1606315567217">
       <screen x="686" y="1050" width="1920" height="1080" />
     </state>
-    <state x="1309" y="1309" width="672" height="678" key="search.everywhere.popup/686.1050.1920.1080/0.0.1680.1050/1680.0.1680.1050@686.1050.1920.1080" timestamp="1606313581267" />
+    <state x="1309" y="1309" width="672" height="678" key="search.everywhere.popup/686.1050.1920.1080/0.0.1680.1050/1680.0.1680.1050@686.1050.1920.1080" timestamp="1606315567217" />
     <state x="1328" y="1309" width="672" height="678" key="search.everywhere.popup/705.1050.1920.1080/0.0.1680.1050@705.1050.1920.1080" timestamp="1606224368451" />
   </component>
 </project>

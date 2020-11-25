@@ -16,6 +16,17 @@ Grey dark 3: #999
 
 */
 /* SHADOWS */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: none; }
+  70% {
+    transform: scale(1.05);
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.25); }
+  100% {
+    transform: scale(1);
+    box-shadow: none; } }
+
 * {
   padding: 0;
   margin: 0; }
@@ -43,7 +54,7 @@ body {
   height: 7rem;
   font-size: 1.4rem;
   background-color: #fff;
-  border-bottom: #f4f2f2;
+  border-bottom: 1px solid #f4f2f2;
   display: flex;
   justify-content: space-between;
   align-items: center; }
@@ -186,15 +197,62 @@ body {
     width: 100%;
     display: block; }
 
-.btn-inline,
-.btn-inline:link,
-.btn-inline:active {
+.btn-inline {
   text-decoration: none;
   border: none;
   cursor: pointer;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid currentColor;
+  color: #eb2f64;
   padding-bottom: 2px;
-  font-size: 1.2rem; }
+  font-size: inherit;
+  display: inline-block;
+  background-color: transparent;
+  transition: all .2s; }
+  .btn-inline:hover {
+    color: #999; }
+  .btn-inline:focus {
+    outline: none;
+    animation: pulse 1s infinite; }
+
+.overview {
+  display: flex;
+  border-bottom: 1px solid #f4f2f2;
+  align-items: center; }
+  .overview__heading {
+    font-size: 2.25rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1.5rem 3rem; }
+  .overview__stars {
+    margin-right: auto;
+    display: flex; }
+  .overview__icon-star, .overview__icon-location {
+    width: 1.75rem;
+    height: 1.75rem;
+    fill: #eb2f64; }
+  .overview__location {
+    font-size: 1.2rem;
+    display: flex; }
+  .overview__icon-location {
+    margin-right: .5rem; }
+  .overview__rating {
+    background-color: #eb2f64;
+    margin-left: 3rem;
+    color: #fff;
+    align-self: stretch;
+    padding: 0 2.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+    .overview__rating-average {
+      font-size: 2.25rem;
+      font-weight: 300;
+      margin-bottom: -3px; }
+    .overview__rating-count {
+      font-size: .8rem;
+      text-transform: uppercase; }
 
 .container {
   max-width: 120rem;

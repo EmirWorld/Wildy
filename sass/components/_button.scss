@@ -10,8 +10,18 @@
   background-color: transparent;
   transition: all .2s;
 
+  & span {
+    margin-left: 3px;
+    transition: margin-left .2s;
+  }
+
+
   &:hover{
     color: $color-grey-dark-3;
+
+    span{
+      margin-left: 8px;
+    }
   }
 
   &:focus{

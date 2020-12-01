@@ -154,6 +154,7 @@ body {
   margin-right: 4.5rem; }
 
 .user-reviews {
+  text-align: center;
   flex: 1; }
 
 .search {
@@ -249,8 +250,13 @@ body {
   display: inline-block;
   background-color: transparent;
   transition: all .2s; }
+  .btn-inline span {
+    margin-left: 3px;
+    transition: margin-left .2s; }
   .btn-inline:hover {
     color: #999; }
+    .btn-inline:hover span {
+      margin-left: 8px; }
   .btn-inline:focus {
     outline: none;
     animation: pulse 1s infinite; }

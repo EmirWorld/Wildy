@@ -1,6 +1,10 @@
-.cta{
+.cta {
   padding: 3.5rem 0;
   text-align: center;
+
+  @include mQuery(screen and tab-port) {
+    padding: 2.5rem 0;
+  }
 
   &__book-now {
     font-size: 1.9rem;

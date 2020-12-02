@@ -5,6 +5,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+
 }
 
 .side-nav{
@@ -13,11 +15,23 @@
   list-style: none;
   margin-top: 3.5rem;
 
+  @include mQuery(screen and tab-port){
+    display: flex;
+    margin: 0;
+  }
   &__item {
     position: relative;
 
+    @include mQuery(screen and tab-port){
+        flex: 1;
+    }
+
     &:not(:last-child){
       margin-bottom: 1.5rem;
+
+      @include mQuery(screen and tab-port){
+        margin: 0;
+      }
     }
   }
 
@@ -55,6 +69,11 @@
     z-index: 10;
     display: flex;
     align-items: center;
+
+    @include mQuery(screen and tab-port){
+      justify-content: center;
+      padding: 2rem;
+    }
   }
 
   &__icon {
@@ -71,4 +90,7 @@
   text-align: center;
   color: $color-grey-light-4;
   padding: 2.5rem;
+  @include mQuery(screen and tab-port){
+    display: none;
+  }
 }

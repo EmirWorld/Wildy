@@ -4,6 +4,10 @@
   padding: 4.5rem;
   background-color: $color-grey-light-1;
   border-bottom: 1px solid $color-grey-light-2;
+
+  @include mQuery(screen and tab-port){
+    padding: 2rem;
+  }
 }
 
 .description {
@@ -12,6 +16,11 @@
   padding: 3rem;
   flex: 0 0 60%;
   margin-right: 4.5rem;
+
+  @include mQuery(screen and tab-port){
+    padding: 2rem;
+    margin-right: 3rem;
+  }
 }
 
 .user-reviews {

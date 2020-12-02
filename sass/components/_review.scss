@@ -6,6 +6,11 @@
   position: relative;
   overflow: hidden;
 
+  @include mQuery(screen and tab-port){
+    padding: 2rem;
+    margin-bottom: 3rem;
+  }
+
   &__text {
     position: relative;
     margin-bottom: 2rem;

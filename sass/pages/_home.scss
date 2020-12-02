@@ -6,10 +6,20 @@
 
   //test purpose
   min-height: 50rem;
+
+  @include mQuery(tab-land){
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+  }
 }
 
 .content {
   display: flex;
+
+  @include mQuery(screen and tab-port){
+    flex-direction: column;
+  }
 }
 
 
